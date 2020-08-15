@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        "use strict";
+        function randomInt(min, max) {
+            /**
+             *  Функция принимает 2 целых числа min, max и возвращает произвольное целое число в промежутке [min, max]
+             */
+            return Math.floor(Math.random() * (max - min + 1) + min);
+        }
+
+        let a = randomInt(-100, 100);
+        let b = randomInt(-100, 100);
+
+        let multipl = a * b;
+        if ( multipl < 0 ) {
+            alert(a + b);
+        } else if (a <= 0) {
+            alert(multipl);
+        } else {
+            alert(a - b);
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
