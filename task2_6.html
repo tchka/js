@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        "use strict";
+        let sum = parseInt( prompt('Введите сумму: '));
+
+        let lastDigit = parseInt( sum % 10 );
+        let rubl = '';
+        if ( [0, 5, 6, 7, 8, 9].indexOf(lastDigit) != -1 || ( 11 <= sum && sum <= 19) ) {
+            rubl = 'рублей';
+        } else if ( [2, 3, 4].indexOf(lastDigit) != -1) {
+            rubl = 'рубля';
+        } else  {
+            rubl = 'рубль';
+        }
+
+        alert(`Ваша сумма в ${sum} ${rubl} успешно зачислена.`)
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

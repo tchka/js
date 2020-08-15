@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        "use strict";
+        function getAdd(a, b) {
+        /**
+         * Функция принимает 2 числа и возвращает их сумму
+         */
+            return +a + +b;
+        }
+
+        function getDiff(a, b) {
+            /**
+             * Функция принимает 2 числа и возвращает их разность
+             */
+            return +a - +b;
+        }
+
+        function getMultipl(a, b) {
+            /**
+             * Функция принимает 2 числа и возвращает их произведение
+             */
+            return a * b;
+        }
+
+        function getDiv(a, b) {
+            /**
+             * Функция принимает 2 числа и возвращает частное от деления первого числа на второе
+             */
+            return a / b;
+        }
+        function mathOperation(a, b, operation){
+            /**
+             * Функция принимает 2 числа и название операции 'getAdd', 'getDiff', 'getMultipl' или 'getDiv'.
+             * Возвращает результат оперции (параметр 3) над числами (параметры 1 и 2)
+             */
+            let operations =  ['getAdd', 'getDiff', 'getMultipl', 'getDiv'];
+            if (operations.indexOf( operation.name ) == -1 ) {
+                return `Недопустимая операция ${operation}`;
+            }
+            return operation(a, b);
+        }
+
+        alert(mathOperation(2, 1, getAdd));
+        alert(mathOperation(2, 1, 2));
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
