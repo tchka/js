@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4483496-d248-46e6-b3fc-8dab646a15c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/task3_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3_6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task2_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task2_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task2_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task2_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task2_6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,10 +62,7 @@
       <updated>1597223118595</updated>
       <workItem from="1597223121879" duration="7557000" />
       <workItem from="1597429207804" duration="8347000" />
-      <workItem from="1597473858480" duration="1214000" />
-      <workItem from="1597499131424" duration="483000" />
-      <workItem from="1597639241786" duration="1697000" />
-      <workItem from="1597663552129" duration="5116000" />
+      <workItem from="1597473858480" duration="957000" />
     </task>
     <servers />
   </component>

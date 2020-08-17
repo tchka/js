@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        "use strict";
+        const products = [
+            {
+                id: 3,
+                price: 200,
+            },
+            {
+                id: 4,
+                price: 900,
+            },
+            {
+                id: 1,
+                price: 1000,
+            },
+        ];
+
+        // Создаем массив товаров с ценой со скидкой 15%
+        let sales15 = products.map(function (product) {
+            return Object.assign(product, {'sale_price': 0.85 * product.price})
+        })
+
+        console.log(sales15)
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
