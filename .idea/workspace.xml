@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4483496-d248-46e6-b3fc-8dab646a15c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/task3_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3_6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3_7.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4/task4_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4/walking/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/walking/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4/walking/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/walking/game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4/walking/mover.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/walking/mover.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4/walking/player.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/walking/player.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4/walking/renderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/walking/renderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4/walking/task4_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/walking/task4_2.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -39,6 +40,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\YandexDisk\Documents\Geekbrains\js\hometask\lesson4" />
+      <recent name="D:\YandexDisk\Documents\Geekbrains\js\hometask\lesson3" />
+      <recent name="D:\YandexDisk\Documents\Geekbrains\js\hometask\lesson2" />
+      <recent name="D:\YandexDisk\Documents\Geekbrains\js\hometask\lesson1" />
+      <recent name="D:\YandexDisk\Documents\Geekbrains\js\hometask\task1" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -67,7 +77,8 @@
       <workItem from="1597473858480" duration="1214000" />
       <workItem from="1597499131424" duration="483000" />
       <workItem from="1597639241786" duration="1697000" />
-      <workItem from="1597663552129" duration="5116000" />
+      <workItem from="1597663552129" duration="6175000" />
+      <workItem from="1597920302676" duration="25538000" />
     </task>
     <servers />
   </component>
