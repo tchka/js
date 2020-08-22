@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        "use strict";
+
+        function number_to_categories (number) {
+            let result = {};
+            const name_array = ['units', 'tens', 'hundreds'];
+            if (Number.isInteger(number) && number > 0 && number < 1000) {
+                for (let i = 0; i < 3; i++) {
+                    result[name_array[i]] = number % 10;
+                    number = Math.floor(number / 10)
+                }
+            } else {
+                console.log('The number should be integer value in [1, 999]')
+            }
+
+            return result;
+
+        }
+
+        console.log(number_to_categories('a'));
+        console.log(number_to_categories(1.1));
+        console.log(number_to_categories(1754));
+        console.log(number_to_categories(865));
+        console.log(number_to_categories(-11));
+
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
