@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4483496-d248-46e6-b3fc-8dab646a15c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson4/questionnaire/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/questionnaire/game.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/questionnaire/questions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/task4_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/walking/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/walking/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/walking/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/walking/game.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/walking/mover.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/walking/mover.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/walking/player.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/walking/player.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson4/walking/renderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/walking/renderer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/walking/task4_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/walking/task4_2.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +36,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson4/questionnaire" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -48,6 +46,9 @@
       <recent name="D:\YandexDisk\Documents\Geekbrains\js\hometask\lesson2" />
       <recent name="D:\YandexDisk\Documents\Geekbrains\js\hometask\lesson1" />
       <recent name="D:\YandexDisk\Documents\Geekbrains\js\hometask\task1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\YandexDisk\Documents\Geekbrains\js\hometask\lesson4\questionnaire" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -78,7 +79,8 @@
       <workItem from="1597499131424" duration="483000" />
       <workItem from="1597639241786" duration="1697000" />
       <workItem from="1597663552129" duration="6175000" />
-      <workItem from="1597920302676" duration="25538000" />
+      <workItem from="1597920302676" duration="29711000" />
+      <workItem from="1598117753531" duration="4991000" />
     </task>
     <servers />
   </component>
