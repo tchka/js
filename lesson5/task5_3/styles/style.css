@@ -1,0 +1,39 @@
+html {
+    background: #cfcfcf;
+}
+
+.hidden {
+    display: none;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+    z-index: 1;
+    transition: all 1s ease;
+}
+
+.popup {
+    position: fixed;
+    top: calc(50% - 150px);
+    left: calc(50% - 150px);
+    height: 300px;
+    width: 300px;
+    z-index: 10;
+}
+
+.close {
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    width: 30px;
+    color: #fff;
+    cursor: pointer;
+}
