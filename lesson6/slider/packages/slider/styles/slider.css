@@ -1,6 +1,11 @@
+.hidden {
+  display: none;
+}
+
 .slider-wrapper {
   overflow: hidden;
   position: relative;
+  margin: 10px auto;
 }
 
 .slider {

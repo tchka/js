@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4483496-d248-46e6-b3fc-8dab646a15c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson7/Tictaktoe/js/Board.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/Tictaktoe/js/Main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/Tictaktoe/js/Status.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson6/slider/packages/slider/scripts/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6/slider/packages/slider/scripts/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson6/slider/packages/slider/styles/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6/slider/packages/slider/styles/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson6/slider/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6/slider/styles/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +93,8 @@
       <workItem from="1598557724117" duration="1206000" />
       <workItem from="1598634014251" duration="2413000" />
       <workItem from="1598638534836" duration="24025000" />
-      <workItem from="1598971444412" duration="15620000" />
+      <workItem from="1598971444412" duration="16698000" />
+      <workItem from="1599143589140" duration="2030000" />
     </task>
     <servers />
   </component>
