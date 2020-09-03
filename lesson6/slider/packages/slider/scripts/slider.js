@@ -3,11 +3,12 @@ document.head.insertAdjacentHTML("afterbegin", '<link rel="stylesheet" href="htt
 const slideTime = 500;
 
 let sliderWrapper = document.querySelector('.slider-wrapper');
-let slidesNumber = document.getElementsByClassName('slider-item').length;
 let slider = document.querySelector('.slider');
+let sliderItems = slider.querySelectorAll('.slider-item');
+let slidesNumber = sliderItems.length;
 let images = slider.querySelectorAll('img');
 
-    let width = parseInt( slider.getAttribute("data-width"));
+let width = parseInt( slider.getAttribute("data-width"));
 let height = parseInt( slider.getAttribute("data-height"));
 if (width) {
     slider.style.width = width * slidesNumber  +'px';
@@ -19,6 +20,10 @@ if (width) {
 if (height) {
     slider.style.height = height +'px';
 }
+
+sliderItems.forEach(function (item) {
+    item.classList.add('hidden');
+});
 // Создаем иконку загрузки
 let loadIcon = document.createElement('i');
 loadIcon.classList.add('fas', 'fa-spinner', 'fa-spin');
@@ -26,12 +31,12 @@ sliderWrapper.insertAdjacentElement("afterbegin", loadIcon);
 
 // Создаем левую стрелку
 let leftArrow = document.createElement('i');
-leftArrow.classList.add('fas', 'fa-chevron-circle-left', 'slider-leftArrow');
+leftArrow.classList.add('fas', 'fa-chevron-circle-left', 'slider-leftArrow', 'inactive', 'hidden');
 sliderWrapper.insertAdjacentElement("beforeend", leftArrow);
 
 // Создаем правую стрелку
 let rightArrow = document.createElement('i');
-rightArrow.classList.add('fas', 'fa-chevron-circle-right', 'slider-rightArrow');
+rightArrow.classList.add('fas', 'fa-chevron-circle-right', 'slider-rightArrow', 'hidden');
 sliderWrapper.insertAdjacentElement("beforeend", rightArrow);
 
 
@@ -46,7 +51,11 @@ window.addEventListener('load', function () {
     rightArrow.addEventListener('click', function () {
         moveSlider ('right');
     });
-
+    leftArrow.classList.remove('hidden');
+    rightArrow.classList.remove('hidden');
+    sliderItems.forEach(function (item) {
+        item.classList.remove('hidden');
+    });
     // Скрываем иконку загрузки
     hideLoadIcon(loadIcon);
 });
@@ -78,6 +87,12 @@ function moveSlider (direction) {
             if (marginLeft > marginLeftAtStart + width) {
                 slider.style.marginLeft = (marginLeftAtStart + width) + 'px';
                 clearInterval(timer);
+                rightArrow.classList.remove('inactive');
+                if (parseInt(slider.style.marginLeft) >= 0) {
+                    leftArrow.classList.add('inactive');
+                } else {
+                    leftArrow.classList.remove('inactive');
+                }
             }
 
         }, 20);
@@ -90,22 +105,19 @@ function moveSlider (direction) {
             if (marginLeft < marginLeftAtStart - width) {
                 slider.style.marginLeft = (marginLeftAtStart - width) + 'px';
                 clearInterval(timer);
+                leftArrow.classList.remove('inactive');
+                if (parseInt(slider.style.marginLeft) <= marginLeftMin) {
+                    rightArrow.classList.add('inactive');
+                } else {
+                    rightArrow.classList.remove('inactive');
+                }
             }
 
         }, 20);
 
     }
 
-    if (parseInt(slider.style.marginLeft) >= 0 - width) {
-        leftArrow.classList.add('inactive');
-    } else {
-        leftArrow.classList.remove('inactive');
-    }
-    if (parseInt(slider.style.marginLeft) <= marginLeftMin + width) {
-        rightArrow.classList.add('inactive');
-    } else {
-        rightArrow.classList.remove('inactive');
-    }
+
 }
 
 
